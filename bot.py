@@ -42,7 +42,7 @@ def callback_inline(call):
             bot.send_message(call.message.chat.id, "Что запустить?", reply_markup=keyboard)
         else:
             subprocess.call(serverdir + "/" + call.data, shell=True)
-            bot.send_message(call.message.chat.id, "Скрипт " + call.data + " Успешно запущен")
+            bot.send_message(call.message.chat.id, "Скрипт " + str(call.data) + " Успешно запущен")
     else:
         bot.send_message(message.chat.id, "Некорректный доступ! Внесите "+str(message.chat.id)+" в разрешенный пул")
 
