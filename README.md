@@ -1,10 +1,12 @@
 # TelebotPy
-Это стартовый исходник
-В зависимостях только pytelegrambotapi
-pip install pytelegrambotapi
-Для доступа нужно ввести свой чат ID в config.chatid
-Ну и получить токен у BotFather
-Само собой там ещё пилить и пилить
+Это стартовый исходник.
+В зависимостях только pytelegrambotapi,
+pip install pytelegrambotapi.
+Для доступа нужно ввести свой чат ID в config.chatid.
+Ну и получить токен у BotFather.
+
+Само собой там ещё пилить и пилить.
+
 1) Для начала WebHook
 2) Разделение прав
 3) Регистрация и подтвеждение регистраций
